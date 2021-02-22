@@ -1,6 +1,6 @@
 <div class=”col-md-3”>
 	<h2 class=”text-center”>Add Trip</h2>
-	<from [ formGroup ]=”addForm” (ngSubmit)=”onSubmit()”>
+	<form [ formGroup ]=”addForm” (ngSubmit)=”onSubmit()”>
 
 		<div class=”form-group”>
 			<label>Code:</label>
@@ -74,8 +74,6 @@
 			</div>
 		</div>
 
-    <button type="submit" class="btn btn-info">Save</button>
-  </form>
+    	<button type="submit" class="btn btn-info">Save</button>
+  	</form>
 </div>
-
-
